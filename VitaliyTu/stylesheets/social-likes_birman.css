@@ -15,6 +15,7 @@
 
 .social-likes_visible {
     opacity: 1;
+    -webkit-transition: opacity .1s ease-in;
     transition: opacity .1s ease-in
 }
 
@@ -109,6 +110,7 @@
     z-index: 99999;
     visibility: hidden;
     opacity: 0;
+    -webkit-transition: visibility 0s .11s, opacity .1s ease-in;
     transition: visibility 0s .11s, opacity .1s ease-in;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden
@@ -117,6 +119,7 @@
 .social-likes_single.social-likes_opened {
     visibility: visible;
     opacity: 1;
+    -webkit-transition: opacity .15s ease-out;
     transition: opacity .15s ease-out
 }
 
